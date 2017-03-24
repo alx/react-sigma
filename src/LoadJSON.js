@@ -64,7 +64,7 @@ class LoadJSON extends React.PureComponent {
 
 	_load(url: string) {
 		sigma.parsers.json(
-			this.props.path ,
+			url ,
 			this.props.sigma ,
 			this.onLoad
 		)
